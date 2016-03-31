@@ -1,8 +1,8 @@
 /* Global Layout Set-up */
-* { 
+* {
   box-sizing: border-box;
 }
-  
+
 body {
   margin: 0;
   padding: 0;
@@ -82,10 +82,10 @@ header .profile-image:hover {
   transform: scale(1.2) rotate(5deg);
   opacity: 1;
 
-  
-  
-  
-  
+
+
+
+
 }
 .tag {
   background-color: #efefef;
@@ -94,7 +94,7 @@ header .profile-image:hover {
   border-radius: 5px;
   display: table;
   margin: 10px auto;
-} 
+}
 .location {
   background-color: #222;
   color: yellow;
@@ -175,7 +175,7 @@ footer ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  float: left;
+  clear:both;
 }
 
 footer ul li {
@@ -217,17 +217,17 @@ a.social:hover {
   border-radius: 6px;
   transition: all .5s;
   overflow: hidden;
-  
+
 }
 .card1:hover {
   border-color: #ff99ff;
 }
-  
+
 #gallery {
   margin: 0;
   padding: 0;
   list-style: none;
-  
+
 }
 
 img {
@@ -240,13 +240,13 @@ img {
   float: left;
 
 }
-  
+
 #gallery li a {
   float: left;
   margin: 2.5%;
 
 }
-  
+
 #gallery li a p {
   margin: 0;
   padding: 5%;
@@ -258,10 +258,10 @@ img {
 
 /* Styles for larger screens */
 @media screen and (min-width: 720px) {
-  
+
   .flex {
       display: -ms-flexbox;      /* TWEENER - IE 10 */
-      display: flex; 
+      display: flex;
       max-width: 1200px;
       justify-content: space-around;
       margin: 0 auto;
@@ -295,4 +295,3 @@ img {
   }
 
 }
-
